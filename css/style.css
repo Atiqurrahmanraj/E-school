@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Poppins", sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* header css start */
+.header{
+    width: 100%;
+    background: #F0FFF0;
+}
+/* header css end */
+
+/* nav-menu css start */
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding: 0px 0px 0px 30px;
+    transition: 0.5s ease-in;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #21B573;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    color: #21B573;
+}
+
+.header .btn-success {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    padding: 10px 30px;
+    margin: -10px 0px 0px 30px;
+    border: 1px solid #21B573;
+    border-radius: 25px;
+    color: #fff;
+    background: #21B573;
+    transition: 0.5s ease-in;
+}
+.header .btn-success:hover, .header .btn-success:focus{
+    color: #21B573;
+    background: #fff;
+}
+/* nav-menu css end */
+
+/* banner css start */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.banner-inner{
+    width: 100%;
+    padding: 50px 0px 0px;
+}
+.banner-inner h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FD511A;
+}
+.banner-inner h1{
+    font-size: 48px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0px;
+}
+.banner-inner h1 span{
+    color: #21B573;
+}
+.banner-inner p{
+    width: 63%;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #000;
+}
+.banner-inner .btn-success {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 30px;
+    margin: 10px 0px 0px 0px;
+    border: 1px solid #21B573;
+    border-radius: 25px;
+    color: #fff;
+    background: #21B573;
+    transition: 0.5s ease-in;
+}
+.banner-inner .btn-success:hover, .banner-inner .btn-success:focus{
+    color: #21B573;
+    background: #fff;
+}
+/* banner css end */
+
+/* future css start */
+.future{
+    width: 100%;
+    padding: 50px;
+}
+.innter-future{
+    width: 100%;
+    padding: 40px 20px;
+    background: #F8FFFB;
+    text-align: center;
+}
+.innter-future:hover {
+    background: #fff;
+    box-shadow: 1px 2px 8px #ccc;
+}
+.innter-future .icons{
+    width: 66px;
+    height: 85px;
+}
+.innter-future h4{
+    font-size: 24px;
+    line-height: 1.3em;
+    font-weight: 400;
+    color: #413960;
+    margin: 10px 0px 0px 0px;
+}
+.innter-future p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #585859;
+    margin: 0px;
+}
+/* future css end */
+
+/* courses css start */
+.courses{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+.courses h1{
+    font-size: 36px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #413960;
+    margin: 15px 0px 45px;
+    text-align: center;
+}
+
+.courses .card{
+    padding: 20px;
+    border: none;
+    box-shadow: 1px 2px 5px #ccc;
+    border-radius: 15px;
+}
+.courses .card .card-img-top{
+    border-radius: 15px;
+    margin: 0px 0px 10px;
+}
+.courses .card .card-body{
+    width: 100%;
+}
+.courses .card .card-body h5{
+    font-size: 24px;
+    line-height: 1.3em;
+    color: #413960;
+    margin: 0px;
+}
+.courses .card .card-body p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #585859;
+    margin: 5px 0px 0px 0px;
+}
+.courses .card .card-body .btn-success {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    border: 1px solid #21B573;
+    border-radius: 25px;
+    color: #fff;
+    background: #21B573;
+    transition: 0.5s ease-in;
+}
+.courses .card .card-body .btn-success:hover, .courses .card .card-body .btn-success:focus{
+    color: #21B573;
+    background: #fff;
+}
+.info{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #585859;
+    margin: 0px;
+}
+.logo{
+    width: 24px;
+    height: 24px;
+    margin: 0px 4px 0px 0px;
+}
+/* courses css end */
+
+/* testimonial css start */
+.testimonial{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+.testimonial h1{
+    font-size: 36px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #000000;
+    margin: 15px 0px 45px;
+    text-align: center;
+}
+.testimonial .cient-image{
+    text-align: center;
+}
+.testimonial .cient{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.testimonial p{
+    width: 108%;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #000000;
+    margin: 0px;
+}
+/* testimonial css end */
+
+/* footer css start */
+.footer{
+    width: 100%;
+    background: #282531;
+    padding: 60px 0px 30px 0px;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.innner-footer{
+    width: 100%;
+}
+.innner-footer .top{
+    list-style: none;
+    font-weight: 700;
+    color: #fff;
+}
+.innner-footer ul li a{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 300;
+}
+.copy{
+    margin: 50px 0px 0px 0px;
+}
+.end{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 300;
+    text-align: center;
+}
+/* footer css end */
